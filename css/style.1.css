@@ -1,0 +1,452 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbd2d2;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+header {
+    background-color: rgb(217, 130, 130);
+    color: rgb(237, 228, 228);
+    padding:17px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;    
+}
+
+
+
+a{
+    color: rgb(217, 130, 130);
+}
+
+
+
+nav {
+    margin: 40px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+nav a {
+    margin: 0 10px;
+    color: rgb(85, 85, 85);
+    align-content: center;
+    justify-content: center;
+    text-decoration:underline;
+    font-size: 35px;
+    font-family: fantasy;
+}
+ 
+
+
+main {
+    margin: auto;
+    background-color: rgb(250, 247, 247);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;  
+    height: fit-content; 
+}
+ 
+
+
+.main2 {
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center; 
+    font-size: 24pt;
+    font-family: fantasy;
+    background-color: rgb(237, 228, 228);  
+}
+
+
+
+.logo {
+    width:200px;
+    height:200px;
+    border: 5px solid rgb(46, 1, 1);
+}
+
+
+
+h1 {
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+
+
+h2 {
+font-size: 24px;
+font-family: fantasy;
+color: rgb(85, 85, 85);
+font-weight: 90;
+text-align: center;
+margin-left: 0.3cm;
+}
+
+
+
+.h3 {
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(85, 85, 85);
+    font-weight: 90;
+    }
+    
+
+
+h6{
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(85, 85, 85);
+    font-weight: 90;
+
+}
+
+
+
+p {
+    font-size: 25px;
+    font-family: sans-serif ;
+    text-align: justify;
+    text-justify:distribute;
+}
+
+
+
+.ul1{
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+
+li {
+    font-size: 22px;
+    text-align:justify; 
+    font-family: sans-serif;
+
+}
+
+
+
+.ul2{
+    display:contents
+    
+}
+
+
+
+
+.li2 {
+    display:inline-block;
+    text-align: left;
+    justify-content:left;
+    font-family: sans-serif;
+    font-size: 15pt;
+    margin: 0;
+    margin-bottom: 1cm;
+    
+}
+
+
+
+.li3{
+    display:block;
+    font-family: fantasy;
+    text-align: center;
+ 
+    justify-content: center;
+
+    
+}
+
+
+
+
+table {
+    margin: auto;
+    font-size: 24px;
+    border-collapse: collapse; 
+    background-color: white;
+    width:auto;
+}
+
+
+
+td {
+    border: 1px solid black;
+    padding: 10px ;
+    text-align: left;
+}
+
+
+
+.td2{
+    font-family: fantasy;
+    font-size: 18pt;
+
+}
+
+
+
+tr{
+    border: 1px solid black;
+    padding: 10px ;
+    text-align: left;  
+}
+
+
+
+th {
+    border: 1cm;
+    border-color: rgb(237, 228, 228);
+    text-align: center;
+}
+
+
+
+title {
+    color: rgb(237, 228, 228);
+}
+
+
+
+form{
+    border: 5pt rgb(85, 85, 85);
+    margin: 1%;
+    color: rgb(85, 85, 85);
+    table-layout: auto;
+    
+}
+
+
+
+.p2{
+    text-align: left;
+    color: black;
+    font-size: 16pt;
+    margin-left: 0.3cm
+}
+
+
+
+.p3{
+    font-size: 22px;
+    font-family: fantasy;
+}
+
+
+
+.p4{
+    font-size: 18px;
+    color: rgb(217, 130, 130);
+}
+
+
+
+.p5{
+    font-size: 20px;
+    color: #0c0c0c;
+    text-align: center;
+}
+
+
+
+.p7{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: sans-serif ;
+    text-align: center;
+
+
+}
+
+
+
+footer{
+    margin: auto;
+}
+
+
+
+section{
+    
+    align-content: center;
+    text-align: left;
+    
+}
+
+
+
+.section2{
+text-align: center;
+align-content: center;
+background-color: rgb(245, 217, 217);
+border-radius: 0.5pc;
+
+}
+
+
+
+.section3{
+    text-align: center;
+    justify-content: center;
+    display:inline-block;
+    font-size: 20pt;
+    color: rgb(245, 217, 217);
+    width: 40%;
+    background-color: rgb(245, 217, 217); 
+    border: 1px;   
+    box-shadow:0px 3px 3px black;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    height: 2cm;
+    font-family: fantasy;
+    border-radius: 3px;
+    
+}
+
+
+
+.section4{
+    text-align: left;
+    align-content: center;
+    background-color: rgb(250, 247, 247);
+    border-radius: 0.5pc;
+    height: 6cm;
+    
+}
+
+
+
+.section5{
+    text-align: left;
+    align-content: center;
+    background-color:rgb(245, 217, 217);
+    border-radius: 0.5pc;
+    color: #0c0c0c;
+    margin-left: 15%;
+    margin-right: 15%;
+        
+}
+    
+
+
+
+input[type=text] { 
+    font-size: 20pt;
+    font-family: fantasy; 
+    color: rgb(217, 130, 130);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+input[type=email] { 
+    font-size: 20pt;
+    font-family: fantasy; 
+    color: rgb(217, 130, 130);
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+input[type=password] { 
+    font-size: 20pt;
+    font-family: fantasy; 
+    color: rgb(217, 130, 130);
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+select{ 
+    font-size: 18pt;
+    font-family: fantasy; 
+    font-weight:100;
+    color: rgb(217, 130, 130);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+input[type=submit] { 
+    font-size: 22pt;
+    font-family: fantasy; 
+    color: rgb(237, 228, 228);
+    margin-left:auto;
+    width: 8cm;
+    height: 1.5cm;
+    background-color: rgb(217, 130, 130);
+    border-color: #dbd2d2;
+}
+
+
+
+input[type=reset] { 
+    font-size: 22pt;
+    font-family: fantasy; 
+    color: rgb(191, 185, 185);
+    margin-left:auto;
+    width: 8cm;
+    height: 1.5cm;
+    background-color: rgb(237, 228, 228);
+    border-color: #dbd2d2;
+}
+
+
+input[type=file] { 
+    font-size: 0.4cm;
+    font-family: fantasy; 
+    color: rgb(217, 130, 130);
+    width: 100%;
+    height: 100%;
+}
+
+
+div{
+    text-align: left;
+    align-content: center;
+    background-color:rgb(245, 217, 217);
+    border-radius: 0.5pc;
+    color: #0c0c0c;
+    margin-left: 15%;
+    margin-right: 15%;  
+}
+
+
+
+input::placeholder {
+    color: lightgray;
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.error-message {
+    color: red;
+    font-size: 0.5em;
+    margin-top: 5px;
+    display: block; /* To make message displayed on a new line */
+    font-style: italic;
+}

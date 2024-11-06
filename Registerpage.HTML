@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health CodeX 2024</title>
+    <link rel="stylesheet" href="css/style.1.css">
+</head>
+<body>
+ 
+    <header>
+        <img class ="logo" src="Images/logo1.jpg" alt="Event Logo">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <h1>  
+            Health CodeX
+        </h1>
+        <p>
+            Workshop 2024
+        </p>    </header>
+ 
+    <nav>
+        <a href="HomePage.HTML">Home</a>
+        <a href="ProgramTable.HTML">Program Table</a>
+        <a href="Registerpage.HTML" style="color: rgb(207, 107, 107);">Register</a>
+        <a href="References.HTML">References</a>
+        <a href="ContactPage.HTML">Contact Us</a>
+
+    </nav>
+    
+    &nbsp;
+
+
+
+<main>
+   
+    <h6 class="h3">Workshop Registration Form</h6>
+        <form id="RegistrationForm" onSubmit="return validInfo()" method="GET" action="regSuccess.html">
+
+            <h2>Login Details:</h2>
+            <table>
+                <tr>
+                    <td class="td2" style="width: 12cm;">
+                        <label for="email">Email Address:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" placeholder="Enter your e-mail" required onchange="validateEmail()">
+                        <br>
+                        <!-- Error message span for email -->
+                        <span id="emailError" class="error-message"></span>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="td2" style="width: 12cm;">
+                        <label for="Password">Password:</label>
+                    </td>
+                    <td> <!-- maybe you need to create a new td3 in css-->
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required onchange="validatePassword()">
+                        <!-- Error message span for password -->
+                        <span id="passwordError" class="error-message"></span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="td2">
+                        <label for="ReenterPassword">Re-enter Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="ReenterPassword" name="Re-enterPassword" placeholder="Re-enter your password" required onchange="validateReEnterPassword()"> 
+                        <!-- Error message span for re-entered password -->
+                        <span id="reEnterPasswordError" class="error-message"></span>
+                    </td>
+                </tr>
+                
+            </table>
+
+            <br>
+
+
+            <h2> User Details:</h2>
+            <table>
+                <tr>
+                    <td class="td2" style="width: 12cm;">
+                        <label for="FirstName">First Name:</label>
+                    </td>
+                    <td style="width: 12cm;">
+                        <input type="text" id="FirstName" name="FirstName" placeholder="Enter your first name" required onchange="validateFirstName()">
+                        <!-- Error message span for first name -->
+                        <span id="firstNameError" class="error-message"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td2" style="width: 12cm;">
+                        <label for="LastName">Last Name:</label>
+                    </td>
+                    <td style="width: 12cm;">
+                        <input type="text" id="LastName" name="LasttName" placeholder="Enter your last name" required onchange="validateLastName()">
+                        <!-- Error message span for last name -->
+                        <span id="lastNameError" class="error-message"></span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="td2">
+                        <label for="DOB">DOB (dd/mm/yyyy):</label>
+                    </td>
+                    <td>
+                        <input type="text" id="DOB" name="DOB" placeholder="Enter your date of birth dd/mm/yyyy" required onchange="validateDOB()">
+                        <!-- Error message span for DOB -->
+                        <span id="dobError" class="error-message"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td2">
+                        <label for="Gender">Gender:</label>
+                    </td>
+                    <td>
+                        <select id="Gender" name="Gender" required>
+                            <option value="">Select...</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td2">
+                        I want to receive marketing materials
+                    <td> 
+                        <input type="checkbox" id="MT">Yes
+                    </td>
+                    
+                </tr>
+
+            </table>
+
+            <br>
+
+
+            <input type="submit" value="Register now!">
+            <input type="reset" value="Cancel"> 
+
+                
+
+        </form>
+<br>
+<br>
+    
+</main>
+
+    &nbsp;
+    <section class="section4"> 
+        <h2 style="text-align: left;">Contact Information</h2>
+        <p class="p2"><b>Osamah Alshehri</b> <br> Event Coordinator <br> Email: <a href="mailto:z5520797@ad.unsw.edu.au "> z5520797@ad.unsw.edu.au  </a> <br> Mobile: +61 422771031 <br> Address: Office 557 Samuels Building (F25), UNSW Kensington Campus, High Street, Kensington NSW 2052, Australia
+        <br><a href="ContactPage.HTML">More contacts</a></p>
+        </section>
+        
+        <section class="section4"> 
+        <h2 style="text-align: left;">Inquiries</h2>
+        <p class="p2">For event Inquiries, please email us at <a href="mailto:inquiries@healthcodez.com "> inquiries@healthcodez.com  </a></p>
+        </section>
+        
+        
+        &nbsp;
+        
+        <footer>    
+        
+        <p style="text-align: center; font-size: 16pt;">
+            Please follow the
+            <a href=https://www.unswcollege.edu.au/experience/safety-on-campus>
+                safety instructions
+            </a>
+            of UNSW at all times.
+        </p>
+        <p style="text-align: center; font-size: 16pt;">  
+            <img class ="nosmoking" src="Images/nosmoking.png" alt="No Smoking icon" style="height: 0.5cm;">  SMOKING IS NOT ALLOWD IN UNSW CAMPUS!
+        </p>
+        <p style="text-align: center; font-size: 12pt;">
+            &copy; 2024 Osamah's Simple Website - Assignment2 BIOM9450
+        </p>
+        </footer>
+        
+        <script src="JS/RegisterFormValidations.js"></script>
+        </body>
+        </html>
